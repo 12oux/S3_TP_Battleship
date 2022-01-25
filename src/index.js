@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style/style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Jeu from './Game.js';
+import APropos from './pages/aPropos';
+import Landing from './pages/Landing';
+import Login from './pages/login';
+import AircraftCarrier from './ships/AircraftCarrier';
+import './index.scss';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,93 @@
+.game {
+ 
+    .game-board 
+      .board-top {
+          display:flex;
+
+          .board-square {
+            border:1px solid black;
+            height: 50px;
+            width: 50px;
+            background-color: lightgrey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:black;
+            font-size: 1.5em;
+          } 
+          .regles {
+            border:1px solid black;
+            height: 50px;
+            width: 100px;
+          }
+      }
+      .board-row {
+        display: flex;
+      
+        .board-square {
+          border:1px solid black;
+          height: 50px;
+          width: 50px;
+          background-color: lightblue;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color:white;
+          font-size: 1.5em;
+        }
+      }
+    }
+
+.boat-row {
+  display: flex;
+}    
+.boat-col {
+  display: inline;
+}
+
+.ship-square {
+  border:1px solid black;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-size: 1.5em;
+}
+
+.submarine {
+  background-image: url("./images/sub.jpg");
+  background-size: cover;
+  width:fit-content;
+  background-color: grey;
+}
+
+
+.destroyer {
+  background-image: url("./images/dest.jpg");
+  background-size: cover;
+  width:fit-content;
+  background-color: grey;
+}
+
+.cruiser {
+  background-image: url("./images/Cruiser.jpeg");
+  background-size: cover;
+  width:fit-content;
+  background-color: grey;
+}
+
+.battleship {
+  background-image: url("./images/battleship.jpg");
+  background-size: cover;
+  width:fit-content;
+  background-color: grey;
+}
+
+.aircraft {
+  background-image: url("./images/aircraft.jpg");
+  background-size: cover;
+  width:fit-content;
+  background-color: grey;
+}
