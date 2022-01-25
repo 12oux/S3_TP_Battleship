@@ -1,0 +1,226 @@
+.game .game-board
+.board-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game .game-board
+.board-top .board-square {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  background-color: lightgrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  font-size: 1.5em;
+}
+
+.game .game-board
+.board-top .regles {
+  border: 1px solid black;
+  height: 50px;
+  width: 100px;
+}
+
+.game .board-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game .board-row .board-square {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  background-color: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.boat-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.boat-col {
+  display: inline;
+}
+
+.ship-square {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  font-size: 1.5em;
+}
+
+.submarine {
+  background-image: url("../public/images/sub.jpg");
+  background-size: cover;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: grey;
+}
+
+.destroyer {
+  background-image: url("../public/images/dest.jpg");
+  background-size: cover;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: grey;
+}
+
+.cruiser {
+  background-image: url("../public/images/Cruiser.jpeg");
+  background-size: cover;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: grey;
+}
+
+.battleship {
+  background-image: url("../public/images/battleship.jpg");
+  background-size: cover;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: grey;
+}
+
+.aircraft {
+  background-image: url("../public/images/aircraft.jpg");
+  background-size: cover;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: grey;
+}
+
+.App-header {
+  background-color: #282c34;
+  background-image: url("../public/images/Jumbo.jpg");
+  background-size: 100%;
+  background-position-y: 60%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.chiffres {
+  background-color: lightgray;
+  width: 5%;
+}
+
+.footer {
+  background-color: #282c34;
+  text-align: center;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main {
+  text-align: center;
+}
+
+.regles {
+  width: 15%;
+  background-color: lightslategray;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 200px;
+  background-color: aliceblue;
+  margin-left: 550px;
+}
+
+.header-logo {
+  margin-left: 50px;
+  margin-right: 1px;
+  float: left;
+  width: 350px;
+  height: 200px;
+}
+/*# sourceMappingURL=index.css.map */

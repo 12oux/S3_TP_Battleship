@@ -8,13 +8,12 @@ import Landing from './pages/Landing.js';
 import APropos from './pages/aPropos.js';
 import Login from './pages/login.js';
 import Jeu from './Game.js';
-import './App.css';
+import './index.scss';
 
 
 function App() {
   return (
     <BrowserRouter>
-      <div>Mon menu</div>
       <Routes>
         <Route path="/aPropos" element={<APropos />} /> 
         <Route path="/landing" element={<Landing />} /> 

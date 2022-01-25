@@ -216,7 +216,7 @@ export default function Jeu() {
             </div>
           </div>
         </div>
-
+        
     );
   }
 

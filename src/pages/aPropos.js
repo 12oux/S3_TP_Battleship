@@ -3,6 +3,7 @@ import ReactDOM from 'react';
 import Navbar from '../navbar';
 import Header from '../Header';
 import Footer from '../Footer';
+import '../index.scss';
 
 
 export default class APropos extends React.Component {

@@ -3,7 +3,8 @@ import ReactDOM from 'react';
 import Navbar from '../navbar';
 import Header from '../Header';
 import Footer from '../Footer';
-import '../style/style.css';
+import '../index.scss';
+import logo from "../logo/Logo.jpg";
 
 export default class Login extends React.Component{
 
@@ -13,6 +14,8 @@ export default class Login extends React.Component{
             <Header />
             <Navbar />
             <br/>
+            <a href="/">
+            <img src={logo} alt="Logo" class="header-logo"/></a>
             <div class="card">
                 <h1> Login Utilisateur </h1>
                 <div class="container">
