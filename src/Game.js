@@ -227,11 +227,11 @@ export default function Jeu() {
       <Header />
       <Navbar />
       <Game />
-      <Battleship />
+      <Battleship isDragging color="green"/>
       <AircraftCarrier isDragging color="grey"/>
-      <Destroyer />
-      <Submarine />
-      <Cruiser />
+      <Destroyer isDragging color="pink"/>
+      <Submarine isDragging color="red"/>
+      <Cruiser isDragging color="yellow"/>
       <Second />
       <Footer />
       </DndProvider>

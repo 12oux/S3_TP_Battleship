@@ -8,14 +8,14 @@ function Square( {value , click} ) {
 
 export default function Second () {
   const [ squares, setSquares] = useState(Array(100).fill(null));
-  const [ isXNext, setIsXNext] = useState(true);
-  const nextSymbole = isXNext ? "X" : "O";
+ 
+  const nextSymbole = "X" ;
 
   function onClickSquare(position) {
     let maCopie = squares.slice();
     maCopie[position] = nextSymbole;
     setSquares(maCopie);
-    setIsXNext(!isXNext);
+    console.log(position);
   }
 
   function fabriqueSquare(position) {

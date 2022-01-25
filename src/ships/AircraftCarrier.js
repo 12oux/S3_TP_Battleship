@@ -17,6 +17,8 @@ export default function AircraftCarrier({ isDragging, color,position,onDrop, sta
         []
       )
 
+
+
     const [boatSquares, setSquares] = useState(Array(5).fill(null));
     const [ isXNext, setIsXNext] = useState(true);
     const changeColor = isXNext ? "X" : "O";
@@ -24,6 +26,7 @@ export default function AircraftCarrier({ isDragging, color,position,onDrop, sta
     const handleToggle = () => {
       setActive(!isActive);
     };
+    
     const [{ isOver, canDrop }, drop] = useDrop(
         () => ({
           accept: "SHIP",
@@ -33,7 +36,7 @@ export default function AircraftCarrier({ isDragging, color,position,onDrop, sta
             canDrop: !!monitor.canDrop()
           })
         }),[stateCouleur])
-    
+  
     function BoatSquare({value, click, color}) {
         const [mesClasses, setClasses] = useState("Square"); 
         return (

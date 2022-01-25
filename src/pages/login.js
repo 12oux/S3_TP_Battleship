@@ -17,14 +17,14 @@ export default class Login extends React.Component{
                 <h1> Login Utilisateur </h1>
                 <div class="container">
                     <form>
-                        <label>Nom :</label><br/>
-                        <input type="text" name="user" id="user" placeholder="Username" required></input>
+                        <label>Username:</label><br/>
+                        <input type="text" name="username" id="user" placeholder="Username" required></input>
                         <br/>
-                        <label>Prenom:</label><br/>
+                        <label>Password:</label><br/>
                         <input type="password" name="password" id="password" placeholder="Password" required></input>
                         <br/>
-                        <button> Connection </button>
                     </form>
+                    <a href='/jeu'><button> Connection </button></a>
                 </div>
             </div>
             <br />
